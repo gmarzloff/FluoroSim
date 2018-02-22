@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ECA665B203DED69008B85AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA665A203DED69008B85AD /* AppDelegate.swift */; };
+		9ECA665D203DED69008B85AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA665C203DED69008B85AD /* ViewController.swift */; };
+		9ECA6660203DED69008B85AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECA665E203DED69008B85AD /* Main.storyboard */; };
+		9ECA6662203DED69008B85AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECA6661203DED69008B85AD /* Assets.xcassets */; };
+		9ECA6665203DED69008B85AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECA6663203DED69008B85AD /* LaunchScreen.storyboard */; };
+		9ECA667D203E4249008B85AD /* FluoroFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA667C203E4249008B85AD /* FluoroFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ECA666C203DED69008B85AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECA664F203DED69008B85AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECA6656203DED69008B85AD;
+			remoteInfo = FluoroSim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ECA6657203DED69008B85AD /* FluoroSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluoroSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECA665A203DED69008B85AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ECA665C203DED69008B85AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ECA665F203DED69008B85AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ECA6661203DED69008B85AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ECA6664203DED69008B85AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ECA6666203DED69008B85AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECA666B203DED69008B85AD /* FluoroSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluoroSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECA667C203E4249008B85AD /* FluoroFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluoroFilter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECA6654203DED69008B85AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECA6668203DED69008B85AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ECA664E203DED69008B85AD = {
+			isa = PBXGroup;
+			children = (
+				9ECA6659203DED69008B85AD /* FluoroSim */,
+				9ECA6658203DED69008B85AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECA6658203DED69008B85AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECA6657203DED69008B85AD /* FluoroSim.app */,
+				9ECA666B203DED69008B85AD /* FluoroSimTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECA6659203DED69008B85AD /* FluoroSim */ = {
+			isa = PBXGroup;
+			children = (
+				9ECA665A203DED69008B85AD /* AppDelegate.swift */,
+				9ECA665C203DED69008B85AD /* ViewController.swift */,
+				9ECA667C203E4249008B85AD /* FluoroFilter.swift */,
+				9ECA665E203DED69008B85AD /* Main.storyboard */,
+				9ECA6661203DED69008B85AD /* Assets.xcassets */,
+				9ECA6663203DED69008B85AD /* LaunchScreen.storyboard */,
+				9ECA6666203DED69008B85AD /* Info.plist */,
+			);
+			path = FluoroSim;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECA6656203DED69008B85AD /* FluoroSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECA6674203DED69008B85AD /* Build configuration list for PBXNativeTarget "FluoroSim" */;
+			buildPhases = (
+				9ECA6653203DED69008B85AD /* Sources */,
+				9ECA6654203DED69008B85AD /* Frameworks */,
+				9ECA6655203DED69008B85AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluoroSim;
+			productName = FluoroSim;
+			productReference = 9ECA6657203DED69008B85AD /* FluoroSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ECA666A203DED69008B85AD /* FluoroSimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECA6677203DED69008B85AD /* Build configuration list for PBXNativeTarget "FluoroSimTests" */;
+			buildPhases = (
+				9ECA6667203DED69008B85AD /* Sources */,
+				9ECA6668203DED69008B85AD /* Frameworks */,
+				9ECA6669203DED69008B85AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECA666D203DED69008B85AD /* PBXTargetDependency */,
+			);
+			name = FluoroSimTests;
+			productName = FluoroSimTests;
+			productReference = 9ECA666B203DED69008B85AD /* FluoroSimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECA664F203DED69008B85AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Marzloff Media";
+				TargetAttributes = {
+					9ECA6656203DED69008B85AD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9ECA666A203DED69008B85AD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9ECA6656203DED69008B85AD;
+					};
+				};
+			};
+			buildConfigurationList = 9ECA6652203DED69008B85AD /* Build configuration list for PBXProject "FluoroSim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ECA664E203DED69008B85AD;
+			productRefGroup = 9ECA6658203DED69008B85AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECA6656203DED69008B85AD /* FluoroSim */,
+				9ECA666A203DED69008B85AD /* FluoroSimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ECA6655203DED69008B85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECA6665203DED69008B85AD /* LaunchScreen.storyboard in Resources */,
+				9ECA6662203DED69008B85AD /* Assets.xcassets in Resources */,
+				9ECA6660203DED69008B85AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECA6669203DED69008B85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECA6653203DED69008B85AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECA665D203DED69008B85AD /* ViewController.swift in Sources */,
+				9ECA667D203E4249008B85AD /* FluoroFilter.swift in Sources */,
+				9ECA665B203DED69008B85AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECA6667203DED69008B85AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ECA666D203DED69008B85AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECA6656203DED69008B85AD /* FluoroSim */;
+			targetProxy = 9ECA666C203DED69008B85AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ECA665E203DED69008B85AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECA665F203DED69008B85AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ECA6663203DED69008B85AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECA6664203DED69008B85AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ECA6672203DED69008B85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ECA6673203DED69008B85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ECA6675203DED69008B85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KPG4PVWANQ;
+				INFOPLIST_FILE = FluoroSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzloffmedia.FluoroSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ECA6676203DED69008B85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KPG4PVWANQ;
+				INFOPLIST_FILE = FluoroSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzloffmedia.FluoroSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9ECA6678203DED69008B85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KPG4PVWANQ;
+				INFOPLIST_FILE = FluoroSimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzloffmedia.FluoroSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluoroSim.app/FluoroSim";
+			};
+			name = Debug;
+		};
+		9ECA6679203DED69008B85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KPG4PVWANQ;
+				INFOPLIST_FILE = FluoroSimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marzloffmedia.FluoroSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluoroSim.app/FluoroSim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECA6652203DED69008B85AD /* Build configuration list for PBXProject "FluoroSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECA6672203DED69008B85AD /* Debug */,
+				9ECA6673203DED69008B85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECA6674203DED69008B85AD /* Build configuration list for PBXNativeTarget "FluoroSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECA6675203DED69008B85AD /* Debug */,
+				9ECA6676203DED69008B85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECA6677203DED69008B85AD /* Build configuration list for PBXNativeTarget "FluoroSimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECA6678203DED69008B85AD /* Debug */,
+				9ECA6679203DED69008B85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ECA664F203DED69008B85AD /* Project object */;
+}
